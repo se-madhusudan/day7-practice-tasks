@@ -1,0 +1,16 @@
+///////////////////////////// Practice \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+---------------------------------------------------------------------
+1. Build a small project from scratch (e.g., a to-do list app, a weather app using an API)
+---------------------------------------------------------------------
+//////////////////////////// Tasks \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+---------------------------------------------------------------------
+1. Create a simple to-do list where the user can add and remove items.
+
+2. Implement a basic calculator that can perform addition, subtraction, multiplication, and division.
+
+3. Create a form with input fields for a user's name and email. Validate that both fields are filled out and that the email address is in a valid format before allowing the form to be submitted
+
+4. Create an image slider that automatically changes images every 3 seconds. Add next and previous buttons to manually change the images.
+
+5. Create a countdown timer that counts down from a specified number of seconds and displays the remaining time. When the timer reaches zero, display "Time's up!".
+----------------------------------------------------------------------

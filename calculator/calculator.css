@@ -1,0 +1,52 @@
+div.mainContainer {
+    max-width: 400px;
+    height: calc(100vh - 40vh);
+    background-color: rgba(42,146,205, 0.96);
+    box-shadow: 0px 0px 40px 20px rgba(245, 243, 135, 0.6);
+    margin: 20vh auto;
+    border-radius: 20px;
+    border: 2px solid rgb(245, 243, 135);
+    padding: 10px;
+}
+
+div.resultContainer {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 5px 5px rgb(27, 114, 165) inset;
+}
+
+div.gridContainer {
+    width: 100%;
+    height: 78%;
+    margin-top: 2%;
+    background-color: rgba(27, 126, 184, 0);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 0px 5px 5px rgb(27, 114, 165) inset;
+    
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 16% 16% 16% 16%;
+    column-gap: 5%;
+    row-gap: 5%;
+    justify-content: center;
+    align-content: center;
+}
+
+div.gridItems {
+}
+
+.gridItems button {
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    border: none;
+    background-color: rgb(5, 95, 148);
+    box-shadow: 0px 0px 5px 4px rgb(16, 82, 121);
+    color: aliceblue;
+}
+
+.gridItems button:hover {
+    background-color: rgb(9, 76, 114);
+}

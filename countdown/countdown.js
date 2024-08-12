@@ -5,9 +5,14 @@ let countDown = document.getElementById('countDown');
 let seconds;
 let interval;
 setBtn.addEventListener('click', () => {
-    seconds = parseInt(inp.value)
-    countDown.innerText = seconds; //display initial value;
-    startTimer(); // to start interval
+    seconds = parseInt(inp.value);
+
+    if(!isNaN(seconds)) {  // only run when this is number 
+        countDown.innerText = seconds; //display initial value;
+        startTimer(); // to start interval
+    } else {
+        countDown.innerText = 'value is required in input box';
+    }
     
 });
 

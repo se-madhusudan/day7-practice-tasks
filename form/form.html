@@ -9,7 +9,16 @@
 </head>
 <body>
     <div>
-        
+        <form method="post">
+            <label for="name">Enter your name <small>(required)</small>: </label>
+            <input type="text" name="name" id="name" required>
+            <p id="nameErr">Name is invalid.</p>
+            <label for="email">Enter your email <small>(required)</small>: </label>
+            <input type="email" name="email" id="email" required>
+            <p id="emailErr">Email is invalid.</p>
+            <input type="submit" value="Submit" id="submitBtn">
+            <p id="success">Data is successfully submitted!</p>
+        </form>
     </div>
     <script src="form.js"></script>
 </body>

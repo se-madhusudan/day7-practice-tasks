@@ -1,4 +1,4 @@
-div {
+div#container {
     max-width: 400px;
     height: calc(100vh - 40vh);
     background-color: rgba(42,146,205, 0.96);
@@ -6,4 +6,74 @@ div {
     margin: 20vh auto;
     border-radius: 20px;
     border: 2px solid rgb(245, 243, 135);
+    padding: 20px;
+    overflow: hidden;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+label {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: rgb(216, 236, 236);
+}
+
+#task {
+    width: 100%;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    color:rgba(99, 97, 4, 0.959);
+    font-size: 1.2em;
+}
+
+#addTask {
+    width: 100%;
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+#addTask:hover {
+    background-color: rgb(235, 235, 199);
+    cursor: pointer;
+}
+
+/* Style for dynamically generated div, p, button */
+.taskContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(240, 248, 255, 0.219);
+    padding: 2px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.taskContainer p {
+    color: rgb(124, 37, 37);
+    font-size: 1.1em;
+}
+
+.taskContainer button {
+    color: brown;
+    border: none;
+    padding: 0 5px;
+    font-size: 1em;
+    border-radius: 4px;
+}
+
+.taskContainer button:hover{
+    cursor: pointer;
+    background-color: brown;
+    color: aliceblue;
 }

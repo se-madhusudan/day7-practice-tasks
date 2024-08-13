@@ -26,6 +26,7 @@ div#container {
     background-color: rgba(201, 201, 194, 0.308);
     border-radius: 10px;
     padding: 0 5px;
+    border: none;
 }
 
 #nextBtn {
@@ -38,6 +39,7 @@ div#container {
     background-color: rgba(201, 201, 194, 0.308);
     border-radius: 10px;
     padding: 0 5px;
+    border: none;
 }
 
 #prevBtn:hover , #nextBtn:hover {

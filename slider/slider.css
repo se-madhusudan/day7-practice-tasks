@@ -45,3 +45,15 @@ div#container {
     background-color: rgba(170, 170, 165, 0.61);
     cursor: pointer;
 }
+
+#imgNum {
+    position:absolute;
+    bottom: 2%;
+    left: 48%;
+    text-align: center;
+    color: rgb(252, 252, 252);
+    font-size: 1.2em;
+    background-color: rgba(201, 201, 194, 0.4);
+    padding: 5px;
+    border-radius: 10px;
+}
